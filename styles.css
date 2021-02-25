@@ -1,0 +1,88 @@
+#dndResults table {
+	margin:auto;
+}
+#dndResults td, th {
+	border: 2px solid #000;
+	padding: 5px;
+}
+
+body {
+	background-color: #ddf;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	text-align:center;
+}
+
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#selectExplanation {
+	text-align: center;
+}
+
+#temperature {
+	color: #511;
+}
+#windspeed {
+	color: #151;
+}
+
+#dndResults {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align:center;
+	border: 2px solid #000;
+	max-width: 1080px;
+}
+#dndResults img {
+	background-color: #225;
+}
+
+#dndSubmit, #input1 {
+	display:block;
+	margin:auto;
+	text-align:center;
+}
+#dndSubmit {
+	margin-top:5px;
+}
+
+.forecast {
+	margin:20px;
+	padding:10px;
+	border: 2px solid #000;
+}
+.forecastImage {
+	background-color: #225;
+	margin:auto;
+	display:block;
+}
+
+.footer {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+	background-color: #111;
+	padding-top: 5px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.footer a {
+	color: #bef;
+}
+.footer a:hover {
+	color: #1ee;
+}
+.footer a:active {
+	color: #bfb;
+}

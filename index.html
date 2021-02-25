@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>D&D Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<br/>
+	<h1>D&D Lookup</h1>
+	
+	<form>
+		<div id="input1">
+			<label>Enter a D&D Thing:</label>
+			<input id="dndInput" type="text"></input><br/>
+			Type of Thing:
+			<select id="dndType">
+				<option value="spells/" selected>Spell by Name</option>
+				<!-- Maybe I'll do these later, spells is taking a lot of effort
+				<option value="proficiencies/">Proficiency</option>
+				<option value="languages/">Language</option>
+				<option value="alignment/">Alignment</option>
+				<option value="backgrounds/">Background</option>
+				<option value="classes/">Class</option>
+				<option value="races/">Race</option>
+				-->
+				<option value="skills/">Skill</option>
+				<option value="ability-scores/">Ability Score</option>
+				<option value="spells?level=">Spell by Level</option>
+				<option value="spells?school=">Spell by School</option>
+			</select>
+		</div>
+		<div id="selectExplanation">
+			<p>Enter the name of a D&D spell.</p>
+			<p>Examples: Acid Arrow, Fireball, Fire Bolt, Fly, Sanctuary</p>
+		</div>
+		<input id="dndSubmit" type="submit" value="Submit"></input>
+	</form>
+	
+	<div id="dndResults">
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity=	"sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+	<script text="type/javascript" src="script.js">
+	</script>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class='footer'>
+		<p><a href='https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-VoidDead'>https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-VoidDead</a></p>
+		<br/>
+	</div>
+	
+</body>
+
+</html>
